@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "\"postgresql-com-python\""
+version = "0.1.0"
+description = "\"Banco de Dados Relacionais com PostgreSQL, linguagem Python e a biblioteca Psycopg2.\""
+authors = ["Janaína Scher <janainascher@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "\"postgresql_com_python\""}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2-binary = "2.9.5"
+config = "0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
