@@ -8,7 +8,6 @@ packages = [{include = "\"postgresql_com_python\""}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-psycopg2-binary = "2.9.5"
 config = "0.5.1"
 
 
